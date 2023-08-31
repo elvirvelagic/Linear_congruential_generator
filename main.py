@@ -1,9 +1,7 @@
 import time
 import os
 
-
 class LCGPseudoRandomGenerator:
-
 
     def __init__(self, a=48271, c=0, m=2**31-1, seed=None):
         self.a = a
