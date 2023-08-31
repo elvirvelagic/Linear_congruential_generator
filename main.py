@@ -15,8 +15,6 @@ class LCGPseudoRandomGenerator:
         else:
             self.x0 = seed
 
-
-
         self.x_prev = (self.a * self.x0 + self.c) % self.m
 
     def generate_number(self, num_range=None):
