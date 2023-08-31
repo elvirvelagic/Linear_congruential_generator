@@ -27,15 +27,3 @@ class LCGPseudoRandomGenerator:
         else:
             return int((self.x_prev / (self.m - 1)) * (num_range[1] - num_range[0]) + num_range[0])
 
-lcg = LCGPseudoRandomGenerator()
-
-print(lcg.generate_number([0, 200]))
-print(lcg.generate_number([0, 200]))
-print(lcg.generate_number([0, 200]))
-print(lcg.generate_number([0, 200]))
-print(lcg.generate_number([0, 200]))
-print(lcg.generate_number())
-print(lcg.generate_number())
-print(lcg.generate_number())
-print(lcg.generate_number())
-print(lcg.generate_number())
